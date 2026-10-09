@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon/favicon-48x48.png">
+  <link rel="icon" href="assets/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <title>Crecimiento · Raíces que Enderezan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=growth-responsive-dock-4"><script src="js/script.js?v=interaction-rollback-1" defer></script><script src="js/footer.js?v=institutional-footer-4" defer></script>
+</head>
+<body class="page page-growth" data-page="growth">
+  <header class="site-header header-dark">
+    <a class="brand logo-brand" href="index.html" aria-label="Enderezando Curvas, inicio"><img src="assets/svg/logo-enderezando-curvas.png" alt="Fundación Enderezando Curvas"></a>
+    <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    <nav class="header-nav" id="siteNav" aria-label="Navegación principal"><button type="button">Nosotros</button><button type="button">Escoliosis</button><button type="button">Casos</button><a class="active" href="index.html" aria-current="location">Impacto</a><button type="button">Para familias</button><button type="button">Transparencia</button><a href="empresas.html">Para empresas</a><a class="nav-help" href="index.html#ayudar">Quiero ayudar</a><button class="nav-apply" type="button">Postularme</button></nav>
+  </header>
+
+  <main class="growth-screen">
+    <div class="growth-live-badge" role="status" aria-label="Transmisión en vivo"><i aria-hidden="true"></i><span>En vivo</span></div>
+    <section class="growth-heading">
+      <button class="growth-back" type="button" data-growth-back><img class="ui-arrow ui-arrow--left" src="assets/svg/flecha.svg" alt="" aria-hidden="true"> Regresar</button>
+      <h1>Cada árbol crece a su propio ritmo.</h1>
+      <p class="growth-support"><span>Detrás de cada árbol hay <strong>una cirugía por hacer</strong></span>
+        <span><strong>posible y un sueño que quiere seguir creciendo.</strong></span>
+        <span>Conoce su costo integral, descubre cómo avanza el</span>
+        <span>fondo colectivo y mira cómo cada donativo se suma.</span></p>
+      <div class="growth-actions">
+        <a class="growth-primary-action" href="index.html#ayudar">Donar para hacer crecer el bosque</a>
+        <a class="growth-community-link" href="comunidad.html">Conoce a la comunidad de donantes <img class="ui-arrow ui-arrow--right" src="assets/svg/flecha.svg" alt="" aria-hidden="true"></a>
+      </div>
+    </section>
+    <img class="growth-backpack-child" src="assets/img/Copia%20de%20Ni%C3%B1o_mochila.webp" alt="">
+    <div class="tree-space" id="treeSpace" aria-label="Bosque interactivo">
+      <canvas class="forest-canvas" id="forestCanvas" role="img" aria-label="Cuatro árboles animados que representan cirugías y crecen con los donativos"></canvas>
+      <div id="forestTrees"></div>
+      <div class="donation-events" id="donationEvents" aria-live="polite"></div>
+    </div>
+    <section class="donation-dock live-growth-dock">
+      <div class="growth-card-story"><small id="selectedSurgeryStatus">Sueño por cumplir:</small><div class="growth-dream-line"><img class="growth-card-heart" src="assets/svg/Recurso%201corazon.svg" alt=""><strong id="selectedSurgery"></strong></div></div>
+      <div class="dock-progress" aria-live="polite" aria-atomic="true"><span id="raisedAmount"></span><div class="progress"><i id="selectedProgress"></i></div><small id="goalAmount"></small><small class="dock-equation" id="progressEquation"></small></div>
+      <div class="live-donation-event"><small>Último donativo</small><strong id="liveDonationAmount">$2,500</strong><span id="liveDonationContext">$2,500 se sumaron al fondo de cirugías.</span></div>
+    </section>
+  </main>
+  <footer data-site-footer aria-label="Pie de página institucional"></footer>
+</body>
+</html>
