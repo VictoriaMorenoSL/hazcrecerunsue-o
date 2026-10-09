@@ -2,11 +2,15 @@
 
 Sitio web de **Enderezando Curvas A.C.** para comunicar el impacto de los donativos, el crecimiento del bosque de los sueños y las formas de participación para personas y empresas.
 
-## Abrir el proyecto
+## Ver el proyecto en la web
+
+### [Abrir Haz crecer un sueño](https://victoriamorenosl.github.io/hazcrecerunsue-o/)
+
+## Abrir los archivos del proyecto
 
 El punto de entrada que conecta todas las secciones del sitio es:
 
-### [Abrir `index.html`](./index.html)
+### [Ver `index.html` en el repositorio](./index.html)
 
 Desde la página principal se puede navegar hacia:
 
